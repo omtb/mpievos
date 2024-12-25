@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7BXD3X5BJS"></script>
     <script>
@@ -12,18 +11,25 @@
       gtag('config', 'G-7BXD3X5BJS');
     </script>
     <style>
-      img {
-	      display: block;
-	      margin-left: auto;
-	      margin-right: auto;
-	      width: 30%;
-	      z-index: -1;
-              vertical-align: middle;
-	      margin-top: 20%;
-      }
+	body, html {
+	  height: 100%;
+	}
+	
+	.bgimg { 
+	  /* The image used */
+	  background-image: url("img_girl.jpg");
+	
+	  /* Full height */
+	  height: 100%; 
+	
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
     </style>
   </head>
   <body>
-    <img src='img/mpievos.jpg'>
+<div class="bgimg"></div>
   </body>
 </html>
